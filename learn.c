@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// int sum(int n);
 int main()
 {
     // Print all the odd number from 5 to 50.
@@ -44,6 +45,25 @@ int main()
     //     n /= 10;
     // }
     // printf("Reversed number = %d" , reverse);
+    // printf("Sum is: %d", sum(5));
+
+    // For loop example.
+    // int i;
+    // for(i=1;i<=5;i++){
+    //     printf("%d\n",i);
+    // }
+
 
     return 0;
 }
+
+// int sum(int n)
+// {
+//     if (n == 1)
+//     {
+//         return 1;
+//     }
+//     int sumNm1 = sum(n - 1);
+//     int sumN = sumNm1 + n;
+//     return sumN;
+// }
